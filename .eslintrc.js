@@ -3,46 +3,30 @@ module.exports = {
     es6: true,
     node: true
   },
-  extends: [
-    'eslint:recommended',
-    'prettier'
-  ],
-  plugins: [
-    'import',
-    'prettier',
-    'sort-destructure-keys',
-    'sort-imports-es6-autofix',
-    'sort-keys-fix'
-  ],
+  extends: ['eslint:recommended', 'prettier'],
+  plugins: ['import', 'prettier'],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module'
   },
   rules: {
-    'quotes': [
+    quotes: [
       'error',
       'single',
       {
-        'allowTemplateLiterals': true,
-        'avoidEscape': true
+        allowTemplateLiterals: true,
+        avoidEscape: true
       }
     ],
-    'semi': ['error', 'never'],
+    semi: ['error', 'never'],
     'spaced-comment': 'error',
-    'strict': ['error', 'never'],
+    strict: ['error', 'never'],
     'import/default': 'error',
     'import/first': 'error',
     'import/no-cycle': 'error',
     'import/no-self-import': 'error',
     'import/no-unresolved': 'error',
     'import/no-useless-path-segments': 'error',
-    'prettier/prettier': 'error',
-    'sort-destructure-keys/sort-destructure-keys': 'error',
-    'sort-imports-es6-autofix/sort-imports-es6': ['error', {
-      'ignoreCase': false,
-      'ignoreMemberSort': false,
-      'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
-    }],
-    'sort-keys-fix/sort-keys-fix': 'error'
+    'prettier/prettier': 'error'
   }
 }
