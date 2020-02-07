@@ -8,7 +8,7 @@ const main = () => {
     key1: 'aaa',
     key1: 'bbb',
     amazing: 1
-  }
+  };
   let j = { d: 'a', veryLongVarName1: 'asdfasdfasd', veryLongVarNameSecond: 'asdf;kalsdjfasdfasd', veryVeryLongLongVarVarNameName: 'name' }
   console.log(y, j)
   // asdf
