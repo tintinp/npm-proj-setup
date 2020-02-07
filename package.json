@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "pre-commit": "lint-staged"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +26,10 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm lint"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": "eslint"
   }
 }
