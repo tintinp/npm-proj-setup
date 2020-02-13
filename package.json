@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "bash ./scripts/build.s",
+    "build": "bash ./scripts/build.sh",
     "lint:staged": "bash ./scripts/lint-staged.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
