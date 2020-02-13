@@ -17,7 +17,7 @@ const main = () => {
     veryVeryLongLongVarVarNameName: 'name'
   }
   console.log(y, j)
-  // asdf
+  // asdf comments
   /* asdf */
 }
 
