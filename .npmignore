@@ -8,7 +8,7 @@
 
 # prettier
 .prettierignore
-prettier.config.js
+.prettierrc.js
 
 # node js
 node_modules
