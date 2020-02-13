@@ -1,3 +1,3 @@
-const { CONNECTION_STATE } = require('..')
+const { CONNECT_STATE } = require('..')
 
-console.log(CONNECTION_STATE.CONECTED)
+console.log(CONNECT_STATE.CONNECTED)

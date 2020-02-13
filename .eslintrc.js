@@ -1,10 +1,13 @@
 module.exports = {
+  root: true,
   env: {
     es6: true,
+    jest: true,
     node: true
   },
   extends: ['eslint:recommended', 'prettier'],
   plugins: ['import', 'prettier'],
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module'
