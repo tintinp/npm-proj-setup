@@ -9,6 +9,7 @@ const main = () => {
     // key1: 'bbb',
     amazing: 1
   }
+
   let j = {
     z: 'a',
     veryLongVarName1: 'asdfasdfasd',
