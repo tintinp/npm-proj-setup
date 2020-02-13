@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "bash ./scripts/build.sh",
+    "lint:staged": "bash ./scripts/lint-staged.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -28,7 +29,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint:staged"
     }
   }
 }
