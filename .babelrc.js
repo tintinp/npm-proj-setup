@@ -1,3 +1,15 @@
 module.exports = {
-  presets: ['@babel/preset-env']
+  ignore: [/(node_modules)/],
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        corejs: 3,
+        targets: {
+          node: 'current'
+        },
+        useBuiltIns: 'usage'
+      }
+    ]
+  ]
 }

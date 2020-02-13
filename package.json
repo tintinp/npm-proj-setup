@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pre-commit": "lint-staged"
+    "build": "bash ./scripts/build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -24,6 +23,7 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "core-js": "^3.6.4",
     "ramda": "^0.27.0"
   },
   "husky": {
